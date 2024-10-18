@@ -1,0 +1,16 @@
+/* Search.css */
+input[type="text"] {
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #3b82f6; /* Light blue border on focus */
+}
